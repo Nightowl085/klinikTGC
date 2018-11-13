@@ -70,13 +70,18 @@
     <div class="row">
         <div class="col-lg-4 mb-4" style="margin-top: 50px; margin-left: auto; margin-right: auto;">
             <div class="card h-100">
-                <h4 class="card-header">Sign In</h4>
+                <h4 class="card-header">Register</h4>
                 <form id="login-form" action="" method="post">
                     <div class="card-body">
                         <input type="hidden" name="_csrf" value="fDECi8R7p7XOVgv3Dz5Jx3gqECYsvnJYkU6Yv4oUwPI5AzWmgxjA6uMBYM9cSSjqK0dSTmDkSg6mO__ep3aPnA==">
                         <div class="form-group field-login-form-login required">
-                            <label class="control-label" for="login-form-login">Username</label>
+                            <label class="control-label" for="login-form-login">Email</label>
                             <input type="text" id="login-form-login" class="form-control" name="login-form[login]" autofocus="autofocus" tabindex="1" aria-required="true">
+                            <div class="help-block"></div>
+                        </div>
+                        <div class="form-group field-login-form-password required">
+                            <label class="control-label" for="login-form-username">Username</label>
+                            <input type="text" id="login-form-username" class="form-control" name="login-form[username]" autofocus="autofocus" tabindex="1" aria-required="true">
                             <div class="help-block"></div>
                         </div>
                         <div class="form-group field-login-form-password required">
@@ -84,14 +89,9 @@
                             <input type="password" id="login-form-password" class="form-control" name="login-form[password]" tabindex="2" aria-required="true">
                             <div class="help-block"></div>
                         </div>
-                        <div class="form-group field-login-form-rememberme">
-                            <input type="hidden" name="login-form[rememberMe]" value="0">
-                            <label><input type="checkbox" id="login-form-rememberme" name="login-form[rememberMe]" value="1" tabindex="3"> Remember me next time</label>
-                            <div class="help-block"></div>
-                        </div>
                     </div>
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-primary btn-block" tabindex="4">Sign in</button>
+                        <button type="submit" class="btn btn-primary btn-block" tabindex="4">Register</button>
                     </div>
                 </form>
             </div>
